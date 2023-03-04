@@ -73,6 +73,19 @@ button {
   transition: 0.2s opacity;
 }
 
+nav {
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 1px solid black;
+ padding: 0 30px;
+}
+
+nav img.page-header_item{
+ width:50px;
+ height:50px;
+}
+ 
+
 .navigation-list__item--active {
   text-decoration:none;
 }
@@ -117,10 +130,14 @@ button:focus,
 * {
   box-sizing: border-box;
 }
+body {
+padding: 0;
+margin:0;
+}
 .page-footer {
   clear: both;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
 }
 .profile__text {
@@ -128,8 +145,7 @@ flex: 1 1 100px;
 }
 .page-header {
 display: flex;
-width: 100%;
-padding: 20px;
+width: 100vw;
 }
 .page-header__item {
 flex: 0 1 40px;
