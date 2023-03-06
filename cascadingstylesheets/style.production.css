@@ -149,6 +149,8 @@ width: 100vw;
 }
 .page-header__item {
 flex: 0 1 40px;
+width:100px;
+height:100px;
 }
 .page-header__item:last-child {
 flex-grow: 1;
